@@ -58,6 +58,4 @@ static const bool useTestAds = true; // Set to false for production
 - `lib/screens/`: Individual modular screen implementations.
 - `lib/widgets/`: Reusable UI components including the `MainScaffold`.
 
----
 
-_Managed and maintained by Antigravity_
