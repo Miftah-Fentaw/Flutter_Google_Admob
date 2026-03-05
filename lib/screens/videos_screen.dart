@@ -21,7 +21,12 @@ class _VideosScreenState extends State<VideosScreen> {
       request: const AdRequest(),
       listener: BannerAdListener(
         onAdLoaded: (_) => setState(() {}),
-        onAdFailedToLoad: (ad, err) => ad.dispose(),
+        onAdFailedToLoad: (ad, err) {
+          debugPrint('Native placeholder failed to load: $err');
+          ad.dispose();
+          _nativePlaceholderAd = null;
+          setState(() {});
+        },
       ),
     )..load();
   }
