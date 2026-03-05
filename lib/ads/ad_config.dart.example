@@ -1,0 +1,17 @@
+class AdConfig {
+  // ANDROID PRODUCTION IDs
+  static const String androidBannerId = 'YOUR_ANDROID_BANNER_ID';
+  static const String androidInterstitialId = 'YOUR_ANDROID_INTERSTITIAL_ID';
+  static const String androidRewardedId = 'YOUR_ANDROID_REWARDED_ID';
+  static const String androidNativeId = 'YOUR_ANDROID_NATIVE_ID';
+  static const String androidAppOpenId = 'YOUR_ANDROID_APP_OPEN_ID';
+  static const String androidRewardedInterstitialId = 'YOUR_ANDROID_REWARDED_INTERSTITIAL_ID';
+
+  // IOS PRODUCTION IDs
+  static const String iosBannerId = 'YOUR_IOS_BANNER_ID';
+  static const String iosInterstitialId = 'YOUR_IOS_INTERSTITIAL_ID';
+  static const String iosRewardedId = 'YOUR_IOS_REWARDED_ID';
+  static const String iosNativeId = 'YOUR_IOS_NATIVE_ID';
+  static const String iosAppOpenId = 'YOUR_IOS_APP_OPEN_ID';
+  static const String iosRewardedInterstitialId = 'YOUR_IOS_REWARDED_INTERSTITIAL_ID';
+}
