@@ -43,7 +43,10 @@ class _MainScaffoldState extends State<MainScaffold> {
           setState(() {});
         },
         onAdFailedToLoad: (ad, err) {
+          debugPrint('BannerAd failed to load: $err');
           ad.dispose();
+          _bannerAd = null;
+          setState(() {});
         },
       ),
     )..load();
